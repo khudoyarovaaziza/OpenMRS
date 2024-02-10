@@ -23,6 +23,8 @@ public class US_401 {
         DemoMRS.DEMOOpenButton.click();
         UIHelpers.waitInSeconds(2);
         UIHelpers.scrollToElementJsExecutor(DemoMRS.OpenMRS2DemoButton);
+        UIHelpers.waitInSeconds(2);
+
         UIHelpers.clickOnElementJsExecutor(DemoMRS.OpenMRS2DemoButton);
 //        DemoMRS.UserNameTextBox.sendKeys(username);
 //        DemoMRS.passwordTextBox.sendKeys(password);

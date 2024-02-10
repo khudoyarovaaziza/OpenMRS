@@ -20,7 +20,7 @@ public class TestData {
         Object[][] testDate = {
                 {"Admin", "Admin123"}// email, password
         };
-        return testDate;// needs create always a new to create a account
+        return testDate;// needs create always a new to create  account
     }
 
     @DataProvider(name = "createAccountAutomationExercise")

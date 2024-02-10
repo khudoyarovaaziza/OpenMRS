@@ -43,6 +43,7 @@ public class UIHelpers {
         JavascriptExecutor jsExecutor = (JavascriptExecutor) WebDriverFactory.getDriver();
         jsExecutor.executeScript("arguments[0].click();", element);
     }
+    //        UIHelpers.clickOnElementJsExecutor(DemoMRS.OpenMRS2DemoButton);
     public WebElement waitForClickAblitiy(WebElement element, int timeout){
         WebDriverWait wait = new WebDriverWait(WebDriverFactory.getDriver(), Duration.ofSeconds(timeout));
         return wait.until(ExpectedConditions.elementToBeClickable(element));
