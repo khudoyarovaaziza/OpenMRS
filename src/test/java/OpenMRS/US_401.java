@@ -1,33 +1,40 @@
 package OpenMRS;
 
-import Pages.AutomationExercisePage;
+import Pages.openMRSpage;
 import Utilitis.ConfigReader;
 import Utilitis.TestData;
 import Utilitis.UIHelpers;
-import Utilitis.WebDriverFactory;
-import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import static Utilitis.WebDriverFactory.getDriver;
+
+
 public class US_401 {
-    AutomationExercisePage DemoMRS = new AutomationExercisePage();
+    openMRSpage DemoMRS = new openMRSpage();
+    UIHelpers uiHelpers =  new UIHelpers();
+
 
     @BeforeMethod
     public void setUp() {
 
-        WebDriverFactory.getDriver().get(ConfigReader.getProperty("automationexercise"));
+        getDriver().get(ConfigReader.getProperty("automationexercise"));
     }
 
     @Test(dataProvider = "loginPositiveData", dataProviderClass = TestData.class)
-    public void loginPageValidEmailValidPass(String username, String password) {
-        DemoMRS.DEMOOpenButton.click();
-        UIHelpers.waitInSeconds(2);
-        UIHelpers.scrollToElementJsExecutor(DemoMRS.OpenMRS2DemoButton);
-        UIHelpers.waitInSeconds(2);
+    public void loginTestData(String username, String password) {
 
-        UIHelpers.clickOnElementJsExecutor(DemoMRS.OpenMRS2DemoButton);
-//        DemoMRS.UserNameTextBox.sendKeys(username);
-//        DemoMRS.passwordTextBox.sendKeys(password);
+        DemoMRS.DEMOOpenButton.click();
+        uiHelpers.waitInSeconds(2);
+
+       uiHelpers.scrollToElementJsExecutor(DemoMRS.OpenMRS2DemoButton);
+       DemoMRS.OpenMRS2DemoButton.click();
+        uiHelpers.waitInSeconds(2);
+       // Assert.assertTrue(DemoMRS.UserNameTextBox.isDisplayed());
+
+        DemoMRS.UserNameTextBox.sendKeys(username);
+//      DemoMRS.UserNameTextBox.click();
+//      DemoMRS.passwordTextBox.sendKeys(password);
 //        DemoMRS.ChooseLocationLaboratory.click();
 //        DemoMRS.loginInButton.click();
 
@@ -42,16 +49,5 @@ public class US_401 {
 12. Clicks the "**Login**" button.
 13. Receives [*Invalid username/password. Please try again.*] warning.
 14. Optionally, the user successfully logs in with valid data.
-*
-*
-* -------------------------------
-* ## Acceptance Criteria (AC_02)
-1. The user navigates to the home page.
-2. Clicks on the [*DEMO*] button.
-3. Selects [*Explore OpenMRS 2*].
-4. Clicks on [*Enter the OpenMRS 2 Demo*].
-5. Navigates to the login page.
-6. Enters the valid username and password from Customer Data.
-7. Clicks on the desired [Location] button for login.
-8. After entering the valid username and password, the user can log in to their registered user account by clicking the "**Login**" button.
+
 */

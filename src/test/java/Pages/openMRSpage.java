@@ -5,15 +5,21 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class AutomationExercisePage {
-    public AutomationExercisePage() {
+public class openMRSpage {
+    public openMRSpage() {
         PageFactory.initElements(WebDriverFactory.getDriver(), this);
     }
 // You can create your own
     @FindBy(xpath = ("(//a[@class='zak-button'])[1]"))
     public WebElement DEMOOpenButton;
-    @FindBy(xpath = ("(//span[contains(text(),'Enter the OpenMRS 2 Demo')]"))
+    @FindBy(xpath = ("//span[contains(text(),'Enter the OpenMRS 2 Demo')]"))
     public WebElement OpenMRS2DemoButton;
+    ////span[contains(text(),'Explore OpenMRS 2')]
+    @FindBy(xpath = ("((//span[contains(text(),'Explore OpenMRS 2')])[1]"))
+    public WebElement selectExploreOpenMRS2Button;
+
+    @FindBy(xpath = ("//fieldset[@class='border p-2']"))
+    public WebElement Iframe;
     @FindBy(xpath = ("(//input[@id='username']"))
     public WebElement UserNameTextBox;
 
@@ -24,7 +30,6 @@ public class AutomationExercisePage {
     public WebElement ChooseLocationLaboratory;
     @FindBy(xpath = ("(//input[@id='loginButton']"))
     public WebElement loginInButton;
-//choose a location
     @FindBy(xpath = ("("))
     public WebElement loginIncorrectMessage;
     @FindBy(xpath = ("("))

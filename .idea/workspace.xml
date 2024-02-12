@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="787f1dd8-b81e-43bd-b8f5-bad37e6d3198" name="Changes" comment="Started it">
+    <list default="true" id="787f1dd8-b81e-43bd-b8f5-bad37e6d3198" name="Changes" comment="Started">
+      <change afterPath="$PROJECT_DIR$/src/test/java/OpenMRS/US_402.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/OpenMRS/US_401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenMRS/US_401.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AutomationExercisePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/AutomationExercisePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilitis/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilitis/TestData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Utilitis/UIHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilitis/UIHelpers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -49,6 +50,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "TestNG.US_401.executor": "Run",
     "TestNG.US_401.loginPageValidEmailValidPass.executor": "Run",
+    "TestNG.US_401.loginTestData.executor": "Run",
+    "TestNG.US_402.loginTestData.executor": "Run",
     "git-widget-placeholder": "aziza",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "C:/Users/Azizakhon/IdeaProjects/OpenMRS/src/main/java/org/example/Main.java",
@@ -57,7 +60,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.US_401.loginPageValidEmailValidPass">
+  <component name="RunManager" selected="TestNG.US_402.loginTestData">
     <configuration name="US_401" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenMRS" />
       <extension name="coverage">
@@ -93,10 +96,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="US_401.loginTestData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenMRS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OpenMRS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OpenMRS" />
+      <option name="MAIN_CLASS_NAME" value="OpenMRS.US_401" />
+      <option name="METHOD_NAME" value="loginTestData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="US_402.loginTestData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenMRS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OpenMRS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OpenMRS" />
+      <option name="MAIN_CLASS_NAME" value="OpenMRS.US_402" />
+      <option name="METHOD_NAME" value="loginTestData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_401.loginPageValidEmailValidPass" />
-        <item itemvalue="TestNG.US_401" />
+        <item itemvalue="TestNG.US_402.loginTestData" />
+        <item itemvalue="TestNG.US_401.loginTestData" />
         <item itemvalue="TestNG.US_401.loginPageValidEmailValidPass" />
         <item itemvalue="TestNG.US_401" />
         <item itemvalue="TestNG.US_401.loginPageValidEmailValidPass" />
