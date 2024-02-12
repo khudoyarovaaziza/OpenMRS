@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="787f1dd8-b81e-43bd-b8f5-bad37e6d3198" name="Changes" comment="Started">
-      <change afterPath="$PROJECT_DIR$/src/test/java/OpenMRS/US_402.java" afterDir="false" />
+    <list default="true" id="787f1dd8-b81e-43bd-b8f5-bad37e6d3198" name="Changes" comment="i change a automationExercise to openMRSpage just look">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/OpenMRS/US_401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenMRS/US_401.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/AutomationExercisePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/AutomationExercisePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/OpenMRS/US_402.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenMRS/US_402.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilitis/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilitis/TestData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilitis/UIHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilitis/UIHelpers.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.US_402.loginTestData">
+  <component name="RunManager" selected="TestNG.US_401.loginTestData">
     <configuration name="US_401" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenMRS" />
       <extension name="coverage">
@@ -134,8 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.US_402.loginTestData" />
         <item itemvalue="TestNG.US_401.loginTestData" />
+        <item itemvalue="TestNG.US_402.loginTestData" />
         <item itemvalue="TestNG.US_401.loginPageValidEmailValidPass" />
         <item itemvalue="TestNG.US_401" />
         <item itemvalue="TestNG.US_401.loginPageValidEmailValidPass" />
@@ -182,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707542155159</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="i change a automationExercise to openMRSpage just look">
+      <option name="closed" value="true" />
+      <created>1707759218816</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1707759218816</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -199,7 +208,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Started" />
     <MESSAGE value="Started it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Started it" />
+    <MESSAGE value="i change a automationExercise to openMRSpage just look" />
+    <option name="LAST_COMMIT_MESSAGE" value="i change a automationExercise to openMRSpage just look" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -28,7 +28,6 @@ public class UIHelpers {
         File fullPage = new File(filePath);
         File tempFile =  screenshot.getScreenshotAs(OutputType.FILE);
         try {
-            // Which Dependency are we use for FileUtils in Java Selenium
             FileUtils.copyFile(tempFile,fullPage);
         }catch (IOException e){
             System.out.println(e.getMessage());

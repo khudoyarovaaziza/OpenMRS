@@ -33,6 +33,8 @@ public class US_402 {
     @Test(dataProvider = "loginPositiveData", dataProviderClass = TestData.class)
     public void loginTestData(String username, String password) {
 
+        openMRSpage openMRSpage = new openMRSpage();
+
         DemoMRS.DEMOOpenButton.click();
         uiHelpers.waitInSeconds(2);
 

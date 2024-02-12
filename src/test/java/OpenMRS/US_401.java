@@ -24,6 +24,8 @@ public class US_401 {
     @Test(dataProvider = "loginPositiveData", dataProviderClass = TestData.class)
     public void loginTestData(String username, String password) {
 
+
+
         DemoMRS.DEMOOpenButton.click();
         uiHelpers.waitInSeconds(2);
 
@@ -31,6 +33,8 @@ public class US_401 {
        DemoMRS.OpenMRS2DemoButton.click();
         uiHelpers.waitInSeconds(2);
        // Assert.assertTrue(DemoMRS.UserNameTextBox.isDisplayed());
+        openMRSpage openMRSpage = new openMRSpage();
+
 
         DemoMRS.UserNameTextBox.sendKeys(username);
 //      DemoMRS.UserNameTextBox.click();
