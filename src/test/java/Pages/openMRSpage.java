@@ -1,6 +1,7 @@
 package Pages;
 
 import Utilitis.WebDriverFactory;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -14,32 +15,27 @@ public class openMRSpage {
     public WebElement DEMOOpenButton;
     @FindBy(xpath = ("//span[contains(text(),'Enter the OpenMRS 2 Demo')]"))
     public WebElement OpenMRS2DemoButton;
-    ////span[contains(text(),'Explore OpenMRS 2')]
-    @FindBy(xpath = ("((//span[contains(text(),'Explore OpenMRS 2')])[1]"))
+    @FindBy(xpath = ("(//span[contains(text(),'Explore OpenMRS 2')])[1]"))
     public WebElement selectExploreOpenMRS2Button;
 
-    @FindBy(xpath = ("//fieldset[@class='border p-2']"))
-    public WebElement Iframe;
-    @FindBy(xpath = ("(//input[@id='username']"))
+    @FindBy(id = ("username"))
     public WebElement UserNameTextBox;
 
-    @FindBy(xpath = ("(//input[@id='password']"))
+    @FindBy(id = ("password"))
     public WebElement passwordTextBox;
 
-    @FindBy(xpath = ("(//li[@id='Laboratory']"))
+    @FindBy(xpath = ("//li[@id='Laboratory']"))
     public WebElement ChooseLocationLaboratory;
-    @FindBy(xpath = ("(//input[@id='loginButton']"))
+    @FindBy(xpath = ("//input[@id='loginButton']"))
     public WebElement loginInButton;
-    @FindBy(xpath = ("("))
-    public WebElement loginIncorrectMessage;
-    @FindBy(xpath = ("("))
-    public WebElement logoutButton;
+    @FindBy(xpath = ("(//li[@id='Inpatient Ward'])[1]"))
+    public WebElement inpatientWardButton;
+
+    @FindBy(xpath = ("//label[@for='sessionLocation']"))
+    public WebElement youMustChooseLocation;
 
     @FindBy(xpath = ("("))
-    public WebElement nameTextBox;
-
-    @FindBy(xpath = ("("))
-    public WebElement signUpEmailTextBox;
+    public WebElement gfhfhfhfh ;
 
     @FindBy(xpath = ("("))
     public WebElement passwordSignUpTextBox;
@@ -71,4 +67,6 @@ public class openMRSpage {
     public WebElement addressSignUpTextBox;
     @FindBy (xpath = ("("))
     public WebElement citySignUpTextBox;
+
+
 }

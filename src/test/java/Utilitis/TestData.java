@@ -8,9 +8,16 @@ public class TestData {
     @DataProvider(name = "loginPositiveData")
     public Object[][] loginTestData() {
         Object[][] testDate = {
-                {"Admin", "Admin123"}// email, password
+                {"", ""},
+                {"Admin", "Admin123"},
         };
         return testDate;
     }
-
+    @DataProvider(name = "loginPositiveDataCorrect")
+    public Object[][] loginCorrect() {
+        Object[][] testDate = {
+                {"Admin", "Admin123"},
+        };
+        return testDate;
+    }
 }

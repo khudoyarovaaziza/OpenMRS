@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="787f1dd8-b81e-43bd-b8f5-bad37e6d3198" name="Changes" comment="i change a automationExercise to openMRSpage just look">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/OpenMRS/US_401.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenMRS/US_401.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/OpenMRS/US_402.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/OpenMRS/US_402.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/openMRSpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/openMRSpage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilitis/TestData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilitis/TestData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Utilitis/UIHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilitis/UIHelpers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/XMLOpenMRS/01_XML.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/XMLOpenMRS/XMLMRS.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +50,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.C:/Users/Azizakhon/IdeaProjects/OpenMRS/src/test/java/XMLOpenMRS/XMLMRS.xml.executor": "Run",
     "TestNG.US_401.executor": "Run",
     "TestNG.US_401.loginPageValidEmailValidPass.executor": "Run",
     "TestNG.US_401.loginTestData.executor": "Run",
+    "TestNG.US_402.loginCorrect.executor": "Run",
     "TestNG.US_402.loginTestData.executor": "Run",
     "git-widget-placeholder": "aziza",
     "kotlin-language-version-configured": "true",
@@ -61,18 +64,11 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.US_401.loginTestData">
-    <configuration name="US_401" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.C:/Users/Azizakhon/IdeaProjects/OpenMRS/src/test/java/XMLOpenMRS/XMLMRS.xml">
+    <configuration name="C:/Users/Azizakhon/IdeaProjects/OpenMRS/src/test/java/XMLOpenMRS/XMLMRS.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenMRS" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="OpenMRS.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="OpenMRS" />
-      <option name="MAIN_CLASS_NAME" value="OpenMRS.US_401" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/XMLOpenMRS/XMLMRS.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
@@ -115,6 +111,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="US_402.loginCorrect" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OpenMRS" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="OpenMRS.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="OpenMRS" />
+      <option name="MAIN_CLASS_NAME" value="OpenMRS.US_402" />
+      <option name="METHOD_NAME" value="loginCorrect" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="US_402.loginTestData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="OpenMRS" />
       <extension name="coverage">
@@ -135,10 +149,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Azizakhon/IdeaProjects/OpenMRS/src/test/java/XMLOpenMRS/XMLMRS.xml" />
+        <item itemvalue="TestNG.US_402.loginCorrect" />
         <item itemvalue="TestNG.US_401.loginTestData" />
         <item itemvalue="TestNG.US_402.loginTestData" />
-        <item itemvalue="TestNG.US_401.loginPageValidEmailValidPass" />
-        <item itemvalue="TestNG.US_401" />
         <item itemvalue="TestNG.US_401.loginPageValidEmailValidPass" />
       </list>
     </recent_temporary>

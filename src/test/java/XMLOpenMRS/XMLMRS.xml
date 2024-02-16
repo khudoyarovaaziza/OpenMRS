@@ -3,9 +3,8 @@
 <suite name="Smoke Test Suite">
     <test name="Frst xml Test">
         <classes>
-            <class name="day12.C01_DynamicDriver"></class>
-            <class name="day13.C02_herokuapWebSiteTest"></class>
-            <class name="day15.C01_Exercises"></class>
+            <class name="OpenMRS.US_401"></class>
+            <class name="OpenMRS.US_402"></class>
         </classes>
     </test>
 </suite>
